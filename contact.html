@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="sr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt — Restoran Ribar</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="main-header">
+    <div class="container nav-container">
+      <div class="logo">
+        <img src="icon.jpg" alt="Logo Ribar" class="logo-img">
+        <h1>Restoran <span>Ribar</span></h1>
+      </div>
+      <nav class="nav-bar">
+        <a href="index.html">Početna</a>
+        <a href="menu.html">Jelovnik</a>
+        <a href="o-nama.html">O nama</a>
+        <a href="contact.html" class="active">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Kontakt informacije</h2>
+    <p><strong>Adresa:</strong> Grdovići bb, 31230 Arilje</p>
+    <p><strong>Telefon:</strong> 
+        <a href="tel:+381313891718" class="contact-link">+381 31 389 1718</a>
+    </p>
+    <p><strong>Email:</strong> 
+        <a href="mailto:info@restoranribar.rs" class="contact-link">info@restoranribar.rs</a>
+    </p>
+    <p><strong>Radno vreme:</strong> Ponedeljak-Petak 08:00 do 23:00<br>
+       <span class="indent">Nedelja 10:00 do 23:00</span>
+    </p>
+
+
+
+    <iframe src="https://www.google.com/maps?q=Grdovici,+Arilje&output=embed" width="1100" height="300" style="border:0;"></iframe>
+
+    <form class="contact-form" onsubmit="alert('Poruka uspešno poslata!'); return false;">
+      <label>Ime:<br><input type="text" required></label>
+      <label>Email:<br><input type="email" required></label>
+      <label>Poruka:<br><textarea rows="4"></textarea></label>
+      <button type="submit" class="btn">Pošalji</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Restoran Ribar | Grdovići bb, Arilje | Tel: +381 31 389 1718</p>
+    <div class="social-links">
+      <a href="https://www.facebook.com/restoranribar1966/?locale=sr_RS" target="_blank" rel="noopener">
+        <img src="fejsbuk.png" alt="Facebook" class="social-icon">
+      </a>
+      <a href="https://www.instagram.com/ribar_restoran1966/" target="_blank" rel="noopener">
+        <img src="insta.png" alt="Instagram" class="social-icon">
+      </a>
+    </div>
+  </footer>
+</body>
+</html>
